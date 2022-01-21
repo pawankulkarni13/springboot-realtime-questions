@@ -1,7 +1,7 @@
 # springboot-realtime-questions
 
 - If you need to parallely process multiple messages in RMQ using springboot, how do you achieve it ?
-> # Minimum number of listener invoker threads
+> Minimum number of listener invoker threads
 > spring.rabbitmq.listener.simple.concurrency=5
 
 - Spring boot application has multiple instances but only one instance should consume messages from RabbitMQ.
