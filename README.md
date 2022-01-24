@@ -13,6 +13,10 @@
 - How do you create a specific bean if the Spring Context doesn't load them while starting up ? Note :You cannot use ApplicationContext to check specific bean
 > We can use @ConditionalOnMissingBean. Similar to this we have @ConditionalOnMissingClass, @ConditionalOnClass and @Conditional annotations which help in check based on some condition/beans.
 
+- What is difference between EnableDiscoveryClient and EnableEurekaClient ?
+
+>There are multiple implementations of "Discovery Service" (eureka, consul, zookeeper). @EnableDiscoveryClient lives in spring-cloud-commons and picks the implementation on the classpath. @EnableEurekaClient lives in spring-cloud-netflix and only works for eureka. If eureka is on your classpath, they are effectively the same.
+
 -
 
 - Spring Boot Github
