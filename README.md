@@ -17,7 +17,8 @@
 
 >There are multiple implementations of "Discovery Service" (eureka, consul, zookeeper). @EnableDiscoveryClient lives in spring-cloud-commons and picks the implementation on the classpath. @EnableEurekaClient lives in spring-cloud-netflix and only works for eureka. If eureka is on your classpath, they are effectively the same.
 
--
+- What are Sterotype annotations ?
+> Spring Annotations are a form of metadata that provides data about a program. Annotations are used to provide supplemental information about a program. It does not have a direct effect on the operation of the code they annotate. It does not change the action of the compiled program. @Component annotation is the main Stereotype Annotation. @Repository, @Service, and @Controller are specializations of @Component
 
 - Spring Boot Github
 - https://github.com/orgs/spring-projects/repositories?type=all
