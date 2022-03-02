@@ -20,5 +20,87 @@
 - What are Sterotype annotations ?
 > Spring Annotations are a form of metadata that provides data about a program. Annotations are used to provide supplemental information about a program. It does not have a direct effect on the operation of the code they annotate. It does not change the action of the compiled program. @Component annotation is the main Stereotype Annotation. @Repository, @Service, and @Controller are specializations of @Component
 
+- What are different annotations used in Spring Framework ?
+> 6 Types of Spring Framework Annotations
+1. Spring Core Annotations
+2-Categories - DI-Related Annotation and Context Configuration Annotations
+DI-Related Annotation
+@Autowired
+@Qualifier
+@Primary
+@Bean
+@Lazy
+@Required
+@Value
+@Scope
+@Lookup
+Context Configuration Annotations
+@Profile
+@Import
+@ImportResource
+@PropertySource
+
+2. Spring Web Annotations
+@RequestMapping
+@RequestBody
+@PathVariable
+@RequestParam
+Response Handling Annotations
+  @ResponseBody
+  @ExceptionHandler
+  @ResponseStatus
+@Controller
+@RestController
+@ModelAttribute
+@CrossOrigin
+
+3. Spring Boot Annotations
+@SpringBootApplication
+@EnableAutoConfiguration
+Auto-Configuration Conditions
+  @ConditionalOnClass, and @ConditionalOnMissingClass
+  @ConditionalOnBean, and @ConditionalOnMissingBean
+  @ConditionalOnProperty
+  @ConditionalOnResource
+  @ConditionalOnWebApplication and @ConditionalOnNotWebApplication
+  @ConditionalExpression
+  @Conditional
+
+4. Spring Scheduling Annotations
+@EnableAsync
+@EnableScheduling
+@Async
+@Scheduled
+@Schedules
+
+5. Spring Data Annotations
+Common Spring Data Annotations
+  @Transactional
+  @NoRepositoryBean
+  @Param
+  @Id
+  @Transient
+  @CreatedBy, @LastModifiedBy, @CreatedDate, @LastModifiedDate
+Spring Data JPA Annotations
+  @Query
+  @Procedure
+  @Lock
+  @Modifying
+  @EnableJpaRepositories
+Spring Data Mongo Annotations
+  @Document
+  @Field
+  @Query
+  @EnableMongoRepositories
+
+6. Spring Bean Annotations
+@ComponentScan
+@Configuration
+Stereotype Annotations
+  @Component
+  @Service
+  @Repository
+  @Controller
+
 - Spring Boot Github
 - https://github.com/orgs/spring-projects/repositories?type=all
