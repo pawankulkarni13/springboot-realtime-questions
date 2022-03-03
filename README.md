@@ -1,4 +1,11 @@
 # springboot-realtime-questions
+- how would you test a private method using Junit ?
+> Generally a unit test is intended to exercise the public interface of a class or unit. Therefore, private methods are implementation detail that you would not expect to test explicitly. In the Spring Framework you can test private methods using this method:
+ReflectionTestUtils.invokeMethod(). 
+1.Don't test private methods.
+2.Give the methods package access.
+3.Use a nested test class.
+4.Use reflection.
 
 - If you need to parallely process multiple messages in RMQ using springboot, how do you achieve it ?
 > Minimum number of listener invoker threads
