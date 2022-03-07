@@ -109,5 +109,27 @@ Stereotype Annotations
   @Repository
   @Controller
 
+- Different ways to run method after startup in spring boot ?
+> 
+  1. Using CommandLineRunner interface
+  2. With ApplicationRunner interface
+  3. Spring boot Application events
+  4. @Postconstruct annotation on a method
+  5. The InitializingBean Interface
+  6. Init attribute of @bean annotation
+
+- Difference Between OpenFeign vs FeignClient ?
+> Feign makes writing web service clients easier by providing annotation support that allows us to implement our clients with just interfaces.
+> Spring Cloud OpenFeign integrates the predecessor project into the Spring Cloud ecosystem.
+
+- How do you trace a API call which internally makes multiple API calls. ?
+> Can use Spring Cloud Sleuth tracing with unique id and span ids for individual/multiple API calls.
+
+- Can we have private methods with @Async implementations ?
+> No, Methods annotated with '@Async' must be overridable.
+
+
+
+- Given millions of records of a custom object/Person/Employee. Consider the  
 - Spring Boot Github
 - https://github.com/orgs/spring-projects/repositories?type=all
