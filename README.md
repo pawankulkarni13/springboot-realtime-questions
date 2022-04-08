@@ -128,7 +128,10 @@ Stereotype Annotations
 - Can we have private methods with @Async implementations ?
 > No, Methods annotated with '@Async' must be overridable.
 
+- Difference between JPA vs Hibernate.
+> The major difference between Hibernate and JPA is that Hibernate is a framework while JPA is API specifications. Hibernate is the implementation of all the JPA guidelines.
 
+- 
 
 - Given millions of records of a custom object/Person/Employee. Consider the  
 - Spring Boot Github
